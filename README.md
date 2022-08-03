@@ -1,37 +1,74 @@
-# waste-django
+<h1 align="center">🔋 waste-django</h1>
 
-#### 介绍
-django框架学习
+<p align="center">
+<a target="_blank" href="https://github.com/zhouboyi1998/waste-django"> 
+<img src="https://img.shields.io/github/stars/zhouboyi1998/waste-django?logo=github">
+</a>
+<a target="_blank" href="https://opensource.org/licenses/MIT"> 
+<img src="https://img.shields.io/badge/license-MIT-red"> 
+</a>
+<img src="https://img.shields.io/badge/Python-3.7-blue">
+<img src="https://img.shields.io/badge/Django-3.2.14-darkgreen">
+<img src="https://img.shields.io/badge/Django REST Framework-3.13.1-darkgreen">
+<img src="https://img.shields.io/badge/MySQL Client-1.4.6-darkgreen">
+<img src="https://img.shields.io/badge/Requests-2.28.1-blue">
+<img src="https://img.shields.io/badge/lxml-4.9.1-darkgreen">
+</p>
 
-#### 软件架构
-软件架构说明
+### 📖 语言
 
+简体中文 | [English](./README.en.md)
 
-#### 安装教程
+### ⌛ 开始
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+#### 创建虚拟环境
 
-#### 使用说明
+#### 安装第三方库
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+```
+pip install django==3.2.14 -i https://pypi.tuna.tsinghua.edu.cn/simple
 
-#### 参与贡献
+pip install djangorestframework==3.13.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+pip install requests==2.28.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
 
+pip install lxml==4.9.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
 
-#### 特技
+pip install mysqlclient==1.4.6 -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+#### pip 国内镜像源
+
+```
+# 清华大学
+https://pypi.tuna.tsinghua.edu.cn/simple
+
+# 中国科技大学
+https://pypi.mirrors.ustc.edu.cn/simple
+
+# 阿里云
+https://mirrors.aliyun.com/pypi/simple
+
+# 豆瓣
+https://pypi.douban.com/simple
+```
+
+#### 命令列表
+
+```bash
+# 运行
+python manage.py runserver
+
+# 安装新模块
+python manage.py startapp <module-name>
+
+# 更新模型
+python manage.py makemigrations
+
+# 更新数据库表
+python manage.py migrate
+```
+
+### 📜 开源协议
+
+[MIT License](https://opensource.org/licenses/MIT) Copyright (c) 2022 周博义
