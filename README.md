@@ -10,6 +10,7 @@
 <img src="https://img.shields.io/badge/Python-3.7-blue">
 <img src="https://img.shields.io/badge/Django-3.2.14-darkgreen">
 <img src="https://img.shields.io/badge/Django REST Framework-3.13.1-darkgreen">
+<img src="https://img.shields.io/badge/Django CORS Header-3.13.0-darkgreen">
 <img src="https://img.shields.io/badge/MySQL Client-1.4.6-darkgreen">
 <img src="https://img.shields.io/badge/Requests-2.28.1-blue">
 <img src="https://img.shields.io/badge/lxml-4.9.1-darkgreen">
@@ -23,12 +24,16 @@
 
 #### 创建虚拟环境
 
+* 在 `/main` 目录下创建虚拟环境
+
 #### 安装第三方库
 
 ```
 pip install django==3.2.14 -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 pip install djangorestframework==3.13.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+pip install django-cors-headers==3.13.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 pip install requests==2.28.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
 
@@ -43,7 +48,7 @@ pip install mysqlclient==1.4.6 -i https://pypi.tuna.tsinghua.edu.cn/simple
 # 清华大学
 https://pypi.tuna.tsinghua.edu.cn/simple
 
-# 中国科技大学
+# 中国科学技术大学
 https://pypi.mirrors.ustc.edu.cn/simple
 
 # 阿里云
