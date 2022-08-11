@@ -24,6 +24,8 @@
 
 #### Create Virtualenv
 
+* Create Virtualenv in the `main` directory
+
 #### Install third-party libraries
 
 ```
