@@ -24,7 +24,7 @@
 
 #### Create Virtualenv
 
-* Create Virtualenv in the `main` directory
+* Create Virtualenv in the `/src` directory
 
 #### Install third-party libraries
 
