@@ -16,11 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-from category import urls as category_urls
+from classification import urls as classification_urls
 from waste import urls as waste_urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('category/', include(category_urls)),
+    path('classification/', include(classification_urls)),
     path('waste/', include(waste_urls)),
 ]
